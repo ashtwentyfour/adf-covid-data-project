@@ -1,0 +1,9 @@
+{
+	"name": "udemy-adf-20241224",
+	"location": "canadaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "99f822a3-f1eb-4c4d-a68d-48f5db4c8ee9",
+		"tenantId": "9f1f8314-f9e5-4c82-ae0d-8b9a32999f3a"
+	}
+}
