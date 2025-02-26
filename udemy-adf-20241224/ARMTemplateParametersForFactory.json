@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "udemy-adf-20241224"
+		},
+		"ls_ablob_udemyadf20241224_connectionString": {
+			"value": ""
+		},
+		"ls_adls_udemyadfdl20241224_accountKey": {
+			"value": ""
+		},
+		"ls_db_covid_cluster_accessToken": {
+			"value": ""
+		},
+		"ls_hdi_covid_cluster_password": {
+			"value": ""
+		},
+		"ls_sql_covid_db_password": {
+			"value": ""
+		},
+		"ls_adls_udemyadfdl20241224_properties_typeProperties_url": {
+			"value": "https://udemyadfdl20241224.dfs.core.windows.net/"
+		},
+		"ls_hdi_covid_cluster_properties_typeProperties_userName": {
+			"value": "admin"
+		},
+		"ls_http_ecdc_opendata_europe_eu_properties_typeProperties_url": {
+			"value": "@{linkedService().sourceBaseURL}"
+		},
+		"ls_sql_covid_db_properties_typeProperties_server": {
+			"value": "covid-adf.database.windows.net"
+		},
+		"ls_sql_covid_db_properties_typeProperties_database": {
+			"value": "covid-db"
+		},
+		"ls_sql_covid_db_properties_typeProperties_userName": {
+			"value": "ashwin"
+		},
+		"tr_population_data_arrived_properties_typeProperties_scope": {
+			"value": "/subscriptions/f218c323-e8d6-41ea-a4f2-355660c96c53/resourceGroups/udemy-adf-rg-1/providers/Microsoft.Storage/storageAccounts/udemyadf20241224"
+		}
+	}
+}
